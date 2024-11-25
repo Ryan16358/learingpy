@@ -11,4 +11,21 @@ def guess(x):
             print('too low')
     print(f'you are correct about number number is {random_number}')
 
+
+
+def c
+
+
+
+
+
+
+
+
+
+
+
+
 guess(10)
+
+
