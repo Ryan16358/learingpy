@@ -1,4 +1,4 @@
-// // condition statement
+// condition statement
 
 // let color = "red";
 // switch (color) {
@@ -20,14 +20,12 @@
 // }
 // alert("hello");
 
-// // for loop
-
+// for loop
 // for (let i = 1; i <= 5; i++) {
 //   console.log(i);
 // }
 
-// // while loop
-
+// *** while loop
 // const favoriteMovie = "mission impossible";
 
 // let guess = prompt("guess my favorite movie");
@@ -41,8 +39,7 @@
 //   console.log("you quite the game");
 // }
 
-// // nested lop for
-
+// ***nested lop for
 // let heroes = [
 //   ["iron man", "thor"],
 //   ["spider man", "ant man"],
@@ -59,8 +56,7 @@
 //   }
 // }
 
-// practice while loop
-
+// ***practice while loop
 // let todo = [];
 
 // while (true) {
@@ -86,6 +82,7 @@
 //   }
 // }
 
+//  ***practice while loop
 // let todo = [];
 
 // while (true) {
@@ -123,3 +120,18 @@
 //     console.log("wrong request");
 //   }
 // }
+
+// ***maximum method
+
+// let arr = [7, 5, 8, 6, 4, 6, 6, 6];
+
+// let max = -1;
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (max < arr[i]) {
+//     max = arr[i];
+//   }
+// }
+// console.log(max);
+
+// ***maximum method
