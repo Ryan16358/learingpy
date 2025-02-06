@@ -30,3 +30,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.flash {
+  background-color: white;
+}
+
+.userFlash {
+  background-color: green !important;
+}

@@ -134,4 +134,33 @@
 // }
 // console.log(max);
 
-// ***maximum method
+// ***callback hell
+// h1 = document.querySelector("h1");
+
+// function changeColor(color, delay, nextChangeColor) {
+//   setTimeout(() => {
+//     h1.style.color = color;
+//     nextChangeColor();
+//   }, delay);
+// }
+
+// changeColor("red", 1000, () => {
+//   changeColor("orange", 1000, () => {
+//     changeColor("purple", 1000, () => {
+//       changeColor("green", 1000, () => {
+//         changeColor("pink", 1000);
+//       });
+//     });
+//   });
+// });
+
+// ***promise
+
+function savetoDb(data) {
+  let internetSpeed = Math.floor(Math.random() * 10) + 1;
+  if (internetSpeed > 4) {
+    console.log("your data was save ");
+  } else {
+    console.log("your data is't save");
+  }
+}
