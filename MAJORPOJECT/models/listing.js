@@ -1,7 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-// Correct the typo here: change lIstingSchema to listingSchema
 const listingSchema = new Schema({
   title: {
     type: String,
@@ -34,7 +33,6 @@ const listingSchema = new Schema({
   },
 });
 
-// Ensure you're using the correct schema variable name
 const Listing = mongoose.model("Listing", listingSchema);
 
 module.exports = Listing;
