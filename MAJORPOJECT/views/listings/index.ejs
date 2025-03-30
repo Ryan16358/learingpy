@@ -6,6 +6,11 @@
     <title>All Listings</title>
   </head>
   <body>
-    <h1>hello world</h1>
+    <h1>all listing</h1>
+    <ul>
+      <% for (let listing of allListings) {%>
+      <li><%= listing.title %></li>
+      <% } %>
+    </ul>
   </body>
 </html>

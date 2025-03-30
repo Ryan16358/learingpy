@@ -28,7 +28,7 @@ app.get("/", (req, res) => {
 app.get("/listings", async (req, res) => {
   const allListings = await Listing.find({});
 
-  res.render("listings/index", { allListings });
+  res.render("listings/index.ejs", { allListings });
 });
 
 // app.get("/testListing", async (req, res) => {
@@ -42,6 +42,8 @@ app.get("/listings", async (req, res) => {
 //   await sampleListing.save();
 //   console.log("sample listing saved");
 //   res.send("sample listing saved");
-app.listen(8080, () => {
+// });
+
+app.listen(5000, () => {
   console.log("Server is running on port 8080");
 });
