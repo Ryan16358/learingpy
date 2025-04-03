@@ -1,3 +1,0 @@
-rayhan
-ron
-code read.py
